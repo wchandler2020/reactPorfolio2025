@@ -63,56 +63,56 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     id: 1,
-    title: "E-Commerce Website",
+    title: "App One Coming Soon",
     image: project1,
     image_1: image_1,
     image_2: image_2,
     image_3: image_3,
     image_4: image_4,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "My projects are currently being deployed and will be available here shortly. Stay tuned—exciting work is on the way!",
+    technologies: ["HTML", "CSS", "React", "Springboot", "MySQL", "Tailwind CSS"],
     github_link: '',
     demo_link: ''
   },
   {
     id: 2,
-    title: "Task Management App",
+    title: "App Two Coming Soon",
     image: project2,
     image_1: image_1,
     image_2: image_2,
     image_3: image_3,
     image_4: image_4,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "My projects are currently being deployed and will be available here shortly. Stay tuned—exciting work is on the way!",
+    technologies: ["HTML", "CSS", "Angular", "Springboot", "Postgres"],
     github_link: '',
     demo_link: ''
   },
   {
     id: 3,
-    title: "Portfolio Website",
+    title: "App Three Coming Soon",
     image: project3,
     image_1: image_1,
     image_2: image_2,
     image_3: image_3,
     image_4: image_4,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "My projects are currently being deployed and will be available here shortly. Stay tuned—exciting work is on the way!",
+    technologies: ["HTML", "CSS", "JS", "React Native", "Django"],
     github_link: '',
     demo_link: ''
   },
   {
     id: 4,
-    title: "Blogging Platform",
+    title: "App Three Coming Soon",
     image: project4,
     image_1: image_1,
     image_2: image_2,
     image_3: image_3,
     image_4: image_4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+    "My projects are currently being deployed and will be available here shortly. Stay tuned—exciting work is on the way!",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
     github_link: '',
     demo_link: ''
