@@ -19,11 +19,13 @@ import { TbSql } from "react-icons/tb";
 import { FaPython } from "react-icons/fa6";
 
 
-export const HERO_CONTENT = `I’m a detail-obsessed Software Engineer with 5+ years of full-stack web development experience, crafting clean, efficient solutions with Python, Java, React, and SQL. I thrive in Agile teams and love building cloud-powered apps on platforms like Azure and AWS.
-Before diving into tech, I spent 23 years leading teams and solving complex challenges as a Health Care Supervisor in the U.S. Army — where I sharpened my leadership, adaptability, and get-it-done mindset.
-Now, I bring that same energy into every line of code I write. Whether it's optimizing a backend service, architecting a cloud solution, or building intuitive web interfaces, I’m all about turning big ideas into working software. Always learning, always improving, and always ready for the next challenge.`;
+export const HERO_CONTENT = `Detail-obsessed coder with a secret weapon: 23 years of leading teams in the Army! 5+ years of full-stack magic (Python, Java, React, SQL), building cool stuff in the cloud with Azure and AWS. Agile-savvy and always ready to crack tech puzzles with a smile and a 'let’s do this' attitude. Always learning, always building, always ready for what’s next.`;
 
-export const ABOUT_TEXT = `I was born and raised in Norfolk, VA, and at the age of 18, I joined the U.S. Army as a Health Care Specialist. Over my 23-year career, I rose to the rank of Senior Non-Commissioned Officer, gaining invaluable experience in leadership and teamwork. I hold two bachelor's degrees—one in Business Management and another in Information Technology—and I’ve also graduated from a coding bootcamp. This educational background has laid a strong foundation for my career in technology. Since leaving the military, I have worked as a Software Developer, honing my skills as a C# and Python developer. Currently, I am a Full Stack Developer, where I also take on responsibilities as a Data Analyst. I am passionate about utilizing technology to create effective solutions and continuously seek opportunities for growth and learning.`;
+export const ABOUT_TEXT = `I’m a proud Norfolk, VA native who began my journey in service and leadership at 18 when I joined the U.S. Army as a Health Care Specialist. Over the course of 23 years, I rose through the ranks to become a Senior Non-Commissioned Officer, sharpening my skills in leadership, problem-solving, and high-stakes teamwork.
+
+Driven by a passion for growth, I earned two bachelor’s degrees—one in Business Management and the other in Information Technology—and later graduated from a rigorous coding bootcamp focused on #C and .Net & SQL. This solid educational foundation launched me into the tech world with purpose and confidence.
+
+Since transitioning out of the military, I’ve embraced the challenges of civilian tech life, working as a Software Developer with a focus on C# and Python. Today, I’m thriving as a Full Stack Developer, where I also take on the analytical side of tech as a Data Analyst. I’m passionate about using technology to build impactful, intelligent solutions—and I’m always looking for new ways to grow, learn, and innovate.`;
 
 export const EXPERIENCES = [
   {
@@ -31,31 +33,31 @@ export const EXPERIENCES = [
     year: "June 2023 - Present",
     role: "Principle Django Developer",
     company: "Jorie AI",
-    description: `Engineered a client-oriented dashboard leveraging Django Rest Framework, ReactJS, and MySQL. This solution allows authenticated users to effortlessly access a dashboard that features dynamically updated Key Performance Indicators (KPIs) and interactive charts. Developed an automation pipeline using Selenium and Python to efficiently extract data from client systems, perform necessary transformations, and upload the data to an MS SQL Server database. Develop comprehensive reports and interactive dashboards using SQL and Tableau to deliver up-to-date insights into business Key Performance Indicators (KPIs).`,
-    technologies: ["Python", "React.js", "MS SQL Server", "Django"],
+    description: `Designed and built dynamic client dashboards (Django REST Framework, ReactJS). Automated client data extraction and ETL to MS SQL Server using Python and Selenium. Delivered KPI insights through SQL and Tableau reports and dashboards.`,
+    technologies: ["Python", "React", "MS SQL Server", "Django", "Azure"],
   },
   {
     id: 2,
     year: "August 2021 – July 2023",
     role: "Python Developer",
     company: "Allured Business Media",
-    description: `Created a python script using webhooks that is designed to automate the task of aggregating data in reference to online marketing campaigns, by providing a daily XML form that contains, “views”, “clicks throughs” and “unique impressions”. Designed a python script for getting from online data, pushing it into a database table, where a second script adds the data to an API. Currently updating and maintaining the company’s existing Django project by adding security features, a virtual environment, and more modern styling.`,
-    technologies: ["Django", "Javascript", "MySQL", "Pandas"],
+    description: `Automated online marketing data aggregation using Python and webhooks, generating daily XML reports ("views," "click-throughs," etc.). Developed Python scripts for data extraction, ETL to database, and API integration. Enhanced and maintained company Django project (security, virtual environment, modern styling).`,
+    technologies: ["Django", "Javascript", "MySQL", "Pandas", "AWS", "React", "GraphQL"],
   },
   {
     id: 3,
     year: "April 2020 – August 2021",
     role: "Junior .Net Developer",
     company: "Dovetail Internet Technologies",
-    description: `Designed two stage authentication system to be used in existing applications, that allows administrators to lock an account that exceeds a predetermined number of attempts. Created a system that allows customers to see the number of items available at several different warehouses, where a customer can add a surcharge to choose a specific warehouse for faster delivery. Debugged, tested and fixed errors found during the QA process, as well as documented revisions and changes.`,
-    technologies: ["C#", ".Net Core", "React.JS", "MS SQL Server"],
+    description: `Developed a two-stage authentication system to improve application security. Created a system for customers to view warehouse inventory and choose expedited delivery. dConducted debugging, testing, and error resolution, ensuring quality and documenting changes.`,
+    technologies: ["C#", ".Net Core", "React.JS", "MS SQL Server", "React", "Web Forms", "Dev Express"],
   },
   {
     id: 4,
     year: "Aug 1994 - Aug 2016",
     role: "Health Care Sergeant/Supervisor",
     company: "United States Army",
-    description: `Managed and coordinated 25 different deployment teams globally to succeed including: training, disciplining, and rewarding soldiers; planning, assigning, and directing deployment assets; appraising performance; and resolving logistical issues. Directed and trained a staff of 17 medics performing instruction and documenting coursework for soldier evaluations in support of maintenance standardization programs. Created a widely used computer-based system for tracking the use and ordering of required medical supplies. Negotiated with Afghan and Iraqi Health Officials to administer 1M+ lifesaving immunizations across 300+ villages and cities. Received over 20 commendation medals including the Bronze Star with Valor award during military service. Served as key member of the implementation team with a focus on the management of system and heath care administration projects, within assigned areas, from inception through implementation.`,
+    description: `Led 25 global deployment teams (training, resources, logistics). Directed training for 17 medics. Developed a medical supply tracking system. Administered 1M+ immunizations (300+ locations). Awarded 20+ commendations (Bronze Star with Valor). Contributed to system/healthcare project implementation.`,
     technologies: [],
   },
 ];
@@ -113,7 +115,7 @@ export const PROJECTS = [
     image_4: image_4,
     description:
     "My projects are currently being deployed and will be available here shortly. Stay tuned—exciting work is on the way!",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "JS", "Django Rest Framework", "React JS", "AWS EC3"],
     github_link: '',
     demo_link: ''
   },

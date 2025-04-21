@@ -1,5 +1,7 @@
 import React from 'react';
 import aboutImg from '../../assets/about/about_img.JPG'
+import aboutImg2 from '../../assets/about/about_img_2.jpg'
+import aboutImg3 from '../../assets/about/about_img_3.jpg'
 import { ABOUT_TEXT } from '../../constants';
 
 const About = () => {
@@ -9,7 +11,7 @@ const About = () => {
         <div className="flex flex-wrap">
             <div className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex items-center justify-center">
-                    <img src={aboutImg} alt='about william' height={480} width={480} className='rounded-lg'/>
+                    <img src={aboutImg3} alt='about william' height={480} width={480} className='rounded-lg'/>
                 </div>
             </div>
             <div className="w-full lg:w-1/2">
