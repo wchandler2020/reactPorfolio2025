@@ -7,7 +7,7 @@ import Experience from "./components/experience/Experience";
 import Project from "./components/projects/Project";
 import ProjectPage from './components/projects/ProjectPage';
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, useParams } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, useParams } from 'react-router-dom'; // Changed BrowserRouter to HashRouter
 import { PROJECTS } from "./constants";
 import Contact from "./components/contact/Contact";
 
@@ -20,8 +20,8 @@ function App() {
         </div>
         <div className="container mx-auto px-8">
           <Routes>
-            <Route 
-              path="/" 
+            <Route
+              path="/"
               element={
                 <>
                   <Navbar />
@@ -32,7 +32,7 @@ function App() {
                   <Project />
                   <Contact />
                 </>
-              } 
+              }
             />
             <Route path="/project/:id" element={<ProjectPageWrapper />} />
           </Routes>
