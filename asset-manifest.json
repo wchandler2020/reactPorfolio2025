@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactPorfolio2025/static/css/main.96762cae.css",
-    "main.js": "/reactPorfolio2025/static/js/main.a5c5bdee.js",
+    "main.js": "/reactPorfolio2025/static/js/main.672e98fc.js",
     "static/media/project-2.jpg": "/reactPorfolio2025/static/media/project-2.1e53e1c4b8c17e19b9eb.jpg",
     "static/media/project-3.jpg": "/reactPorfolio2025/static/media/project-3.44bf59a1f2ebd9d6404e.jpg",
     "static/media/project-4.jpg": "/reactPorfolio2025/static/media/project-4.bb25a3b2cf5f96116458.jpg",
@@ -20,10 +20,10 @@
     "static/media/WilliamChandlerChiResume2025.docx": "/reactPorfolio2025/static/media/WilliamChandlerChiResume2025.cfefea9e5719b4da3385.docx",
     "index.html": "/reactPorfolio2025/index.html",
     "main.96762cae.css.map": "/reactPorfolio2025/static/css/main.96762cae.css.map",
-    "main.a5c5bdee.js.map": "/reactPorfolio2025/static/js/main.a5c5bdee.js.map"
+    "main.672e98fc.js.map": "/reactPorfolio2025/static/js/main.672e98fc.js.map"
   },
   "entrypoints": [
     "static/css/main.96762cae.css",
-    "static/js/main.a5c5bdee.js"
+    "static/js/main.672e98fc.js"
   ]
 }
