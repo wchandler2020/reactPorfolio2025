@@ -21,11 +21,13 @@ import { FaPython } from "react-icons/fa6";
 
 export const HERO_CONTENT = `Detail-obsessed coder with a secret weapon: 23 years of leading teams in the Army! 5+ years of full-stack magic (Python, Java, React, SQL), building cool stuff in the cloud with Azure and AWS. Agile-savvy and always ready to crack tech puzzles with a smile and a 'let’s do this' attitude. Always learning, always building, always ready for what’s next.`;
 
-export const ABOUT_TEXT = `I’m a proud Norfolk, VA native who began my journey in service and leadership at 18 when I joined the U.S. Army as a Health Care Specialist. Over the course of 23 years, I rose through the ranks to become a Senior Non-Commissioned Officer, sharpening my skills in leadership, problem-solving, and high-stakes teamwork.
+export const ABOUT_TEXT = [
+  `I'm a proud Norfolk, VA native whose journey into leadership and service kicked off at 18 when I joined the U.S. Army as a Health Care Specialist. Over 23 incredible years, I climbed the ranks to Senior Non-Commissioned Officer, sharpening my leadership, problem-solving, and high-pressure teamwork skills along the way.`,
 
-Driven by a passion for growth, I earned two bachelor’s degrees—one in Business Management and the other in Information Technology—and later graduated from a rigorous coding bootcamp focused on #C and .Net & SQL. This solid educational foundation launched me into the tech world with purpose and confidence.
+  `Always hungry for growth, I earned two bachelor’s degrees—one in Business Management and the other in Information Technology—and crushed a coding bootcamp focused on C#, .NET, and SQL. That foundation catapulted me into the tech world with purpose and drive.`,
 
-Since transitioning out of the military, I’ve embraced the challenges of civilian tech life, working as a Software Developer with a focus on C# and Python. Today, I’m thriving as a Full Stack Developer, where I also take on the analytical side of tech as a Data Analyst. I’m passionate about using technology to build impactful, intelligent solutions—and I’m always looking for new ways to grow, learn, and innovate.`;
+  `Since stepping into civilian life, I've embraced the challenges of the tech industry head-on, working as a Software Developer with a focus on Python, SQL and Javascript. Today, I'm thriving as a Full Stack Developer, passionate about building smart, impactful solutions. I'm also leveling up my skills in Java and Spring Boot to expand what I can bring to the table. Always learning, always innovating—that’s the energy I bring to every project.`,
+];
 
 export const EXPERIENCES = [
   {
