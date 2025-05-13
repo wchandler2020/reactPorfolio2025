@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactPorfolio2025/static/css/main.96762cae.css",
-    "main.js": "/reactPorfolio2025/static/js/main.24467b65.js",
+    "main.css": "/reactPorfolio2025/static/css/main.e9be4a76.css",
+    "main.js": "/reactPorfolio2025/static/js/main.c6dfa2fd.js",
     "static/media/project-2.jpg": "/reactPorfolio2025/static/media/project-2.1e53e1c4b8c17e19b9eb.jpg",
     "static/media/project-3.jpg": "/reactPorfolio2025/static/media/project-3.44bf59a1f2ebd9d6404e.jpg",
     "static/media/project-4.jpg": "/reactPorfolio2025/static/media/project-4.bb25a3b2cf5f96116458.jpg",
@@ -19,11 +19,11 @@
     "static/media/williamchandlerlogo.png": "/reactPorfolio2025/static/media/williamchandlerlogo.1b0bd492b05be56e73a4.png",
     "static/media/WilliamChandlerChiResume2025.docx": "/reactPorfolio2025/static/media/WilliamChandlerChiResume2025.cfefea9e5719b4da3385.docx",
     "index.html": "/reactPorfolio2025/index.html",
-    "main.96762cae.css.map": "/reactPorfolio2025/static/css/main.96762cae.css.map",
-    "main.24467b65.js.map": "/reactPorfolio2025/static/js/main.24467b65.js.map"
+    "main.e9be4a76.css.map": "/reactPorfolio2025/static/css/main.e9be4a76.css.map",
+    "main.c6dfa2fd.js.map": "/reactPorfolio2025/static/js/main.c6dfa2fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.96762cae.css",
-    "static/js/main.24467b65.js"
+    "static/css/main.e9be4a76.css",
+    "static/js/main.c6dfa2fd.js"
   ]
 }
