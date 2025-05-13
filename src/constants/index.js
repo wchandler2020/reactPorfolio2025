@@ -8,6 +8,8 @@ import image_2 from '../assets/projects/project_page/project_1/img_2.png'
 import image_3 from '../assets/projects/project_page/project_1/img_3.png'
 import image_4 from '../assets/projects/project_page/project_1/img_4.png'
 
+import default_image from '../assets/default_img.jpg'
+
 import { RiJavascriptLine } from 'react-icons/ri';
 import { RiJavaLine } from 'react-icons/ri';
 import { BiLogoSpringBoot } from "react-icons/bi";
@@ -36,7 +38,7 @@ export const EXPERIENCES = [
     role: "Principle Django Developer",
     company: "Jorie AI",
     description: `Designed and built dynamic client dashboards (Django REST Framework, ReactJS). Automated client data extraction and ETL to MS SQL Server using Python and Selenium. Delivered KPI insights through SQL and Tableau reports and dashboards.`,
-    technologies: ["Python", "React", "MS SQL Server", "Django", "Azure"],
+    technologies: ["Python", "React", "MS SQL Server", "Django", "Azure", "Docker", "PyTest"],
   },
   {
     id: 2,
@@ -82,11 +84,11 @@ export const PROJECTS = [
   {
     id: 2,
     title: "App Two Coming Soon",
-    image: project2,
-    image_1: image_1,
-    image_2: image_2,
-    image_3: image_3,
-    image_4: image_4,
+    image: default_image,
+    image_1: default_image,
+    image_2: default_image,
+    image_3: default_image,
+    image_4: default_image,
     description:
       "My projects are currently being deployed and will be available here shortly. Stay tuned—exciting work is on the way!",
     technologies: ["HTML", "CSS", "Angular", "Springboot", "Postgres"],
@@ -96,11 +98,11 @@ export const PROJECTS = [
   {
     id: 3,
     title: "App Three Coming Soon",
-    image: project3,
-    image_1: image_1,
-    image_2: image_2,
-    image_3: image_3,
-    image_4: image_4,
+    image: default_image,
+    image_1: default_image,
+    image_2: default_image,
+    image_3: default_image,
+    image_4: default_image,
     description:
       "My projects are currently being deployed and will be available here shortly. Stay tuned—exciting work is on the way!",
     technologies: ["HTML", "CSS", "JS", "React Native", "Django"],
@@ -110,11 +112,11 @@ export const PROJECTS = [
   {
     id: 4,
     title: "App Three Coming Soon",
-    image: project4,
-    image_1: image_1,
-    image_2: image_2,
-    image_3: image_3,
-    image_4: image_4,
+    image: default_image,
+    image_1: default_image,
+    image_2: default_image,
+    image_3: default_image,
+    image_4: default_image,
     description:
     "My projects are currently being deployed and will be available here shortly. Stay tuned—exciting work is on the way!",
     technologies: ["HTML", "CSS", "JS", "Django Rest Framework", "React JS", "AWS EC3"],
