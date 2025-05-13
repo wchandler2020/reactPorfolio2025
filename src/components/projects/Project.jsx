@@ -3,6 +3,8 @@ import { PROJECTS } from "../../constants";
 import { FaGithub } from "react-icons/fa6";
 import { IoMdMore } from "react-icons/io";
 import { Link } from "react-router-dom";
+import { TbWorldWww } from "react-icons/tb";
+
 const Project = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
@@ -25,7 +27,7 @@ const Project = () => {
 
             <div className="w-full max-w-xl lg:w-3/4">
               <h6 className="mb-2 font-semibold">{project.title}</h6>
-              <p className="mb-2 text-neutral-400">{project.description}</p>
+              <p className="mb-2 text-neutral-400">{project.description.split(" ").slice(0, 20).join(" ")}</p>
               {project.technologies.map((item, index) => (
                 <span
                   key={index}
@@ -37,17 +39,24 @@ const Project = () => {
               <div className="mt-5 flex gap-4">
                 <Link
                   to={`/project/${project.id}`}
-                  className="flex items-center bg-transparent border-2 border-purple-400 hover:border-transparent text-neutral-400 hover:bg-purple-400 hover:text-white font-light py-2 px-4 rounded"
+                  className="flex items-center text-sm bg-transparent border-2 border-purple-400 hover:border-transparent text-neutral-400 hover:bg-purple-400 hover:text-white font-light py-2 px-4 rounded"
                 >
                   <IoMdMore className="mr-1" />
-                  View Details
+                  Details
                 </Link>
                 <Link
-                  href={project.github_link}
-                  className="flex items-center bg-transparent border-2 border-purple-400 hover:border-transparent text-neutral-400 hover:bg-purple-400 hover:text-white font-light py-2 px-4 rounded"
+                  to={project.github_link}
+                  className="flex items-center text-sm  bg-transparent border-2 border-purple-400 hover:border-transparent text-neutral-400 hover:bg-purple-400 hover:text-white font-light py-2 px-4 rounded"
                 >
                   <FaGithub className="mr-1" />
-                  View Repository
+                  Repository
+                </Link>
+                <Link
+                  to={project.demo_link}
+                  className="flex items-center text-sm  bg-transparent border-2 border-purple-400 hover:border-transparent text-neutral-400 hover:bg-purple-400 hover:text-white font-light py-2 px-4 rounded"
+                >
+                  <TbWorldWww className="mr-1" />
+                  View
                 </Link>
               </div>
             </div>

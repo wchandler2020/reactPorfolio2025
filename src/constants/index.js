@@ -3,10 +3,10 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-import image_1 from '../assets/projects/project_page/image_1.jpg'
-import image_2 from '../assets/projects/project_page/image_2.jpg'
-import image_3 from '../assets/projects/project_page/image_3.jpg'
-import image_4 from '../assets/projects/project_page/image_4.jpg'
+import image_1 from '../assets/projects/project_page/project_1/img_1.png'
+import image_2 from '../assets/projects/project_page/project_1/img_2.png'
+import image_3 from '../assets/projects/project_page/project_1/img_3.png'
+import image_4 from '../assets/projects/project_page/project_1/img_4.png'
 
 import { RiJavascriptLine } from 'react-icons/ri';
 import { RiJavaLine } from 'react-icons/ri';
@@ -67,17 +67,17 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     id: 1,
-    title: "App One Coming Soon",
-    image: project1,
-    image_1: image_1,
+    title: "EZ-SHORT URL SHORTNER",
+    image: image_1,
+    image_1: image_4,
     image_2: image_2,
     image_3: image_3,
     image_4: image_4,
     description:
-      "My projects are currently being deployed and will be available here shortly. Stay tuned—exciting work is on the way!",
-    technologies: ["HTML", "CSS", "React", "Springboot", "MySQL", "Tailwind CSS"],
-    github_link: '',
-    demo_link: ''
+      "This URL Shortener is a full-stack web application that allows users to convert long URLs into short, shareable links. Built with React and styled using Tailwind CSS, the frontend offers a sleek, responsive user interface. The backend is powered by Spring Boot, with Spring Security handling authentication and authorization to protect user data and manage access control. Data is stored in a MySQL database, ensuring reliable persistence of URLs and user information. The entire application is containerized using Docker for easy deployment and scalability across environments.",
+    technologies: ["HTML", "CSS", "React", "Springboot", "MySQL", "Tailwind CSS", "Docker"],
+    github_link: 'https://github.com/wchandler2020/springboot-react-urlShortner',
+    demo_link: 'https://deft-cendol-d9ecab.netlify.app/',
   },
   {
     id: 2,

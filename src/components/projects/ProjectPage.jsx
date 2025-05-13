@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import { IoMdMore } from "react-icons/io";
 import { Link } from "react-router-dom";
-
+import { TbWorldWww } from "react-icons/tb";
 import { IoMdArrowBack } from "react-icons/io";
 
 const ProductPage = ({ data }) => {
@@ -80,7 +80,7 @@ const ProductPage = ({ data }) => {
               to={data["demo_link"]}
               className="flex items-center bg-transparent border-2 border-purple-400 hover:border-transparent text-neutral-400 hover:bg-purple-400 hover:text-white font-light py-2 px-4 rounded"
             >
-              <IoMdMore className="mr-1" />
+              <TbWorldWww className="mr-1" />
               Live Demo
             </Link>
             <Link
