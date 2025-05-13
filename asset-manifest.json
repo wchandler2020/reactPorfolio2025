@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/reactPorfolio2025/static/css/main.96762cae.css",
-    "main.js": "/reactPorfolio2025/static/js/main.672e98fc.js",
+    "main.js": "/reactPorfolio2025/static/js/main.24467b65.js",
     "static/media/project-2.jpg": "/reactPorfolio2025/static/media/project-2.1e53e1c4b8c17e19b9eb.jpg",
     "static/media/project-3.jpg": "/reactPorfolio2025/static/media/project-3.44bf59a1f2ebd9d6404e.jpg",
     "static/media/project-4.jpg": "/reactPorfolio2025/static/media/project-4.bb25a3b2cf5f96116458.jpg",
-    "static/media/image_4.jpg": "/reactPorfolio2025/static/media/image_4.4b097da307cb2943df21.jpg",
     "static/media/about_img.JPG": "/reactPorfolio2025/static/media/about_img.05c653fc041897a85d38.JPG",
-    "static/media/image_3.jpg": "/reactPorfolio2025/static/media/image_3.11d76a92a58874ba5e63.jpg",
     "static/media/about_img_4.jpg": "/reactPorfolio2025/static/media/about_img_4.f5a55ba26c7f82295f49.jpg",
-    "static/media/image_1.jpg": "/reactPorfolio2025/static/media/image_1.d50a7e38c5714b4ebec0.jpg",
+    "static/media/img_1.png": "/reactPorfolio2025/static/media/img_1.dace5f62aba72d3f91ff.png",
     "static/media/project-1.jpg": "/reactPorfolio2025/static/media/project-1.90fac9c0c0d6f7995d95.jpg",
+    "static/media/img_2.png": "/reactPorfolio2025/static/media/img_2.6b49fcb3690b543620b2.png",
     "static/media/about_img_3.jpg": "/reactPorfolio2025/static/media/about_img_3.bd9eb3b509ada5ee4efd.jpg",
-    "static/media/image_2.jpg": "/reactPorfolio2025/static/media/image_2.ecb73841f68cf3e790b9.jpg",
     "static/media/hero6.jpg": "/reactPorfolio2025/static/media/hero6.b78eab169951dc5e1d84.jpg",
+    "static/media/img_4.png": "/reactPorfolio2025/static/media/img_4.6f569f01dfe6d74d84df.png",
     "static/media/about_img_2.jpg": "/reactPorfolio2025/static/media/about_img_2.8fb02ef60b6c00a56383.jpg",
     "static/media/hero5.jpg": "/reactPorfolio2025/static/media/hero5.55c43658799bb1662a59.jpg",
+    "static/media/img_3.png": "/reactPorfolio2025/static/media/img_3.6efbca8afb035f48f7ff.png",
     "static/media/williamchandlerlogo.png": "/reactPorfolio2025/static/media/williamchandlerlogo.1b0bd492b05be56e73a4.png",
     "static/media/WilliamChandlerChiResume2025.docx": "/reactPorfolio2025/static/media/WilliamChandlerChiResume2025.cfefea9e5719b4da3385.docx",
     "index.html": "/reactPorfolio2025/index.html",
     "main.96762cae.css.map": "/reactPorfolio2025/static/css/main.96762cae.css.map",
-    "main.672e98fc.js.map": "/reactPorfolio2025/static/js/main.672e98fc.js.map"
+    "main.24467b65.js.map": "/reactPorfolio2025/static/js/main.24467b65.js.map"
   },
   "entrypoints": [
     "static/css/main.96762cae.css",
-    "static/js/main.672e98fc.js"
+    "static/js/main.24467b65.js"
   ]
 }
