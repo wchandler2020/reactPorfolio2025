@@ -1,12 +1,12 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+// PROJECT ONE
+import project_1_01 from '../assets/projects/project_page/project_1/img_1.png'
+import project_1_02 from '../assets/projects/project_page/project_1/img_2.png'
+import project_1_03 from '../assets/projects/project_page/project_1/img_3.png'
+import project_1_04 from '../assets/projects/project_page/project_1/img_4.png'
 
-import image_1 from '../assets/projects/project_page/project_1/img_1.png'
-import image_2 from '../assets/projects/project_page/project_1/img_2.png'
-import image_3 from '../assets/projects/project_page/project_1/img_3.png'
-import image_4 from '../assets/projects/project_page/project_1/img_4.png'
+// PROJECT TWO
+
+import project_2_01 from '../assets/projects/project_page/project_2/bg_remove_1.png'
 
 import default_image from '../assets/default_img.jpg'
 
@@ -70,11 +70,11 @@ export const PROJECTS = [
   {
     id: 1,
     title: "EZ-SHORT URL SHORTNER",
-    image: image_1,
-    image_1: image_4,
-    image_2: image_2,
-    image_3: image_3,
-    image_4: image_4,
+    image: project_1_01,
+    image_1: project_1_01,
+    image_2: project_1_02,
+    image_3: project_1_03,
+    image_4: project_1_04,
     description:
       "This URL Shortener is a full-stack web application that allows users to convert long URLs into short, shareable links. Built with React and styled using Tailwind CSS, the frontend offers a sleek, responsive user interface. The backend is powered by Spring Boot, with Spring Security handling authentication and authorization to protect user data and manage access control. Data is stored in a MySQL database, ensuring reliable persistence of URLs and user information. The entire application is containerized using Docker for easy deployment and scalability across environments.",
     technologies: ["HTML", "CSS", "React", "Springboot", "MySQL", "Tailwind CSS", "Docker"],
@@ -83,16 +83,16 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    title: "App Two Coming Soon",
-    image: default_image,
-    image_1: default_image,
+    title: "BG_REMOVE",
+    image: project_2_01,
+    image_1: project_2_01,
     image_2: default_image,
     image_3: default_image,
     image_4: default_image,
     description:
-      "My projects are currently being deployed and will be available here shortly. Stay tuned—exciting work is on the way!",
-    technologies: ["HTML", "CSS", "Angular", "Springboot", "Postgres"],
-    github_link: '',
+      "This is a web-based Image Background Removal Tool that enables users to upload images and automatically remove their backgrounds. The frontend is built with React.js and styled using Tailwind CSS for a clean and responsive UI. The backend is powered by Spring Boot, with Spring Security handling request protection and role-based access.Clerk is integrated for user authentication and management, providing secure and seamless sign-in/sign-up flows. A MySQL database is used to persist user data, including tracking the number of credits each user has remaining for background removal operations. This allows the application to enforce usage limits and personalize the experience for each user.",
+    technologies: ["React", "Tailwind", "Clerk", "Springboot", "MySQL", "Spring Security"],
+    github_link: 'https://github.com/wchandler2020/bg-remove-app',
     demo_link: ''
   },
   {

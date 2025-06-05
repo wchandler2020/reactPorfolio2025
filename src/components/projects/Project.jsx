@@ -21,7 +21,7 @@ const Project = () => {
                 alt={project.title}
                 // height={180}
                 // width={180}
-                className="sm:w-full sm:h-[240px] lg:h-[180px] lg:w-[180px] mb-6 rounded-xl "
+                className="sm:w-full sm:h-[240px] lg:h-[240px] lg:w-[300px] mb-6 rounded-xl "
               />
             </div>
 
