@@ -4,6 +4,13 @@ import project_1_02 from '../assets/projects/project_page/project_1/img_2.png'
 import project_1_03 from '../assets/projects/project_page/project_1/img_3.png'
 import project_1_04 from '../assets/projects/project_page/project_1/img_4.png'
 
+import projecct_3_home from '../assets/projects/project_page/project_3/home_screen.png'
+import projecct_3_about from '../assets/projects/project_page/project_3/about.png'
+import projecct_3_tour from '../assets/projects/project_page/project_3/tour.png'
+import projecct_3_mfa from '../assets/projects/project_page/project_3/MFA.png'
+import projecct_3_contact from '../assets/projects/project_page/project_3/contact.png'
+
+
 // PROJECT TWO
 
 import project_2_01 from '../assets/projects/project_page/project_2/bg_remove_1.png'
@@ -97,17 +104,17 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    title: "App Three Coming Soon",
-    image: default_image,
-    image_1: default_image,
-    image_2: default_image,
-    image_3: default_image,
-    image_4: default_image,
+    title: "Promed Health Plus",
+    image: projecct_3_home,
+    image_1: projecct_3_tour,
+    image_2: projecct_3_mfa,
+    image_3: projecct_3_contact,
+    image_4: projecct_3_about,
     description:
-      "My projects are currently being deployed and will be available here shortly. Stay tuned—exciting work is on the way!",
-    technologies: ["HTML", "CSS", "JS", "React Native", "Django"],
+      "Dashboard app for Promed Health Plus, a skin graft provider, enabling healthcare professionals to add new patients, submit IVRs, create and track open orders, consult with supervising physicians, and communicate with sales representatives.",
+    technologies: ["Django", "ReactJS", "Azure", "MySQL", "Figma", "Tailwind"],
     github_link: '',
-    demo_link: ''
+    demo_link: 'https://promedhealthplus.com/'
   },
   {
     id: 4,
