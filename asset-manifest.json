@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactPorfolio2025/static/css/main.ade3f25e.css",
-    "main.js": "/reactPorfolio2025/static/js/main.d81e9e3e.js",
+    "main.js": "/reactPorfolio2025/static/js/main.afc662ad.js",
     "static/media/welcome.png": "/reactPorfolio2025/static/media/welcome.bf8b25b3e4e1adf4b803.png",
     "static/media/MFA.png": "/reactPorfolio2025/static/media/MFA.d7897af66eb7d03b09db.png",
     "static/media/register.png": "/reactPorfolio2025/static/media/register.b3c6e196492ab9aeaabf.png",
@@ -12,20 +12,22 @@
     "static/media/img_1.png": "/reactPorfolio2025/static/media/img_1.dace5f62aba72d3f91ff.png",
     "static/media/ai_assistant.png": "/reactPorfolio2025/static/media/ai_assistant.1e1e945edfb3d55bdf65.png",
     "static/media/img_2.png": "/reactPorfolio2025/static/media/img_2.6b49fcb3690b543620b2.png",
+    "static/media/hero6.jpg": "/reactPorfolio2025/static/media/hero6.b78eab169951dc5e1d84.jpg",
     "static/media/img_4.png": "/reactPorfolio2025/static/media/img_4.6f569f01dfe6d74d84df.png",
     "static/media/dashboard.png": "/reactPorfolio2025/static/media/dashboard.d3248341716a71a51377.png",
     "static/media/about_img_2.jpg": "/reactPorfolio2025/static/media/about_img_2.8fb02ef60b6c00a56383.jpg",
     "static/media/contact.png": "/reactPorfolio2025/static/media/contact.1d4b12f3e1189c886a84.png",
     "static/media/img_3.png": "/reactPorfolio2025/static/media/img_3.6efbca8afb035f48f7ff.png",
     "static/media/tour.png": "/reactPorfolio2025/static/media/tour.d0e2d24082455f031eec.png",
+    "static/media/WilliamChandlerChiResume_10_2025.pdf": "/reactPorfolio2025/static/media/WilliamChandlerChiResume_10_2025.235a38b81a8fcda6ac3d.pdf",
     "static/media/williamchandlerlogo.png": "/reactPorfolio2025/static/media/williamchandlerlogo.1b0bd492b05be56e73a4.png",
     "static/media/default_img.jpg": "/reactPorfolio2025/static/media/default_img.85d8d1eda7f078792068.jpg",
     "index.html": "/reactPorfolio2025/index.html",
     "main.ade3f25e.css.map": "/reactPorfolio2025/static/css/main.ade3f25e.css.map",
-    "main.d81e9e3e.js.map": "/reactPorfolio2025/static/js/main.d81e9e3e.js.map"
+    "main.afc662ad.js.map": "/reactPorfolio2025/static/js/main.afc662ad.js.map"
   },
   "entrypoints": [
     "static/css/main.ade3f25e.css",
-    "static/js/main.d81e9e3e.js"
+    "static/js/main.afc662ad.js"
   ]
 }
