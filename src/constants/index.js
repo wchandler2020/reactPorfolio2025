@@ -10,6 +10,11 @@ import projecct_3_tour from '../assets/projects/project_page/project_3/tour.png'
 import projecct_3_mfa from '../assets/projects/project_page/project_3/MFA.png'
 import projecct_3_contact from '../assets/projects/project_page/project_3/contact.png'
 
+import project_4_home from '../assets/projects/project_page/project_4/welcome.png'
+import project_4_register from '../assets/projects/project_page/project_4/register.png'
+import project_4_dashboard from '../assets/projects/project_page/project_4/dashboard.png'
+import project_4_assistant from '../assets/projects/project_page/project_4/ai_assistant.png'
+
 
 // PROJECT TWO
 
@@ -28,14 +33,14 @@ import { TbSql } from "react-icons/tb";
 import { FaPython } from "react-icons/fa6";
 
 
-export const HERO_CONTENT = `Detail-obsessed coder with a secret weapon: 23 years of leading teams in the Army! 5+ years of full-stack magic (Python, Java, React, SQL), building cool stuff in the cloud with Azure and AWS. Agile-savvy and always ready to crack tech puzzles with a smile and a 'let’s do this' attitude. Always learning, always building, always ready for what’s next.`;
+export const HERO_CONTENT = `Accomplished technologist and former Army Lead with a decade-spanning career in personnel management and 6+ years of hands-on software engineering. Proven expertise in developing full-stack solutions using Java, Python, and React, with a deep focus on cloud-native deployments. I bridge the gap between complex technical requirements and high-performing team dynamics, ensuring every project is delivered with precision and a forward-thinking mindset.`;
 
 export const ABOUT_TEXT = [
-  `I'm a proud Norfolk, VA native whose journey into leadership and service kicked off at 18 when I joined the U.S. Army as a Health Care Specialist. Over 23 incredible years, I climbed the ranks to Senior Non-Commissioned Officer, sharpening my leadership, problem-solving, and high-pressure teamwork skills along the way.`,
+  `A Norfolk, VA native, my professional foundation was built on a 23-year career in the U.S. Army. Serving as a Senior Non-Commissioned Officer, I mastered the art of high-stakes leadership and operational strategy. These decades of service instilled a "mission-first" discipline that I now apply to architecting enterprise-grade software and leading cross-functional engineering teams.`,
 
-  `Always hungry for growth, I earned two bachelor’s degrees—one in Business Management and the other in Information Technology—and crushed a coding bootcamp focused on C#, .NET, and SQL. That foundation catapulted me into the tech world with purpose and drive.`,
+  `I bridge the gap between business objectives and technical execution, backed by dual Bachelor’s degrees in Business Management and Information Technology. My technical evolution is defined by a transition from foundational C# and .NET development to building scalable, cloud-native applications. I specialize in designing robust back-end architectures and seamless user experiences that drive organizational value.`,
 
-  `Since stepping into civilian life, I've embraced the challenges of the tech industry head-on, working as a Software Developer with a focus on Python, SQL and Javascript. Today, I'm thriving as a Full Stack Developer, passionate about building smart, impactful solutions. I'm also leveling up my skills in Java and Spring Boot to expand what I can bring to the table. Always learning, always innovating—that’s the energy I bring to every project.`,
+  `Currently, I lead full-stack initiatives with a primary focus on Python (Django/FastAPI) and modern JavaScript environments. To further bolster my enterprise capabilities, I am deepening my expertise in Java and Spring Boot for high-concurrency systems. With a strong proficiency in AWS and Azure cloud environments, I focus on delivering secure, scalable solutions that leverage automated CI/CD pipelines and microservices architecture.`
 ];
 
 export const EXPERIENCES = [
@@ -76,34 +81,20 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     id: 1,
-    title: "EZ-SHORT URL SHORTNER",
-    image: project_1_01,
-    image_1: project_1_01,
-    image_2: project_1_02,
-    image_3: project_1_03,
-    image_4: project_1_04,
+    title: "FinanceFlow - AI-Powered Personal Finance Manager",
+    image: project_4_home,
+    image_1: project_4_home,
+    image_2: project_4_register,
+    image_3: project_4_dashboard,
+    image_4: project_4_assistant,
     description:
-      "This URL Shortener is a full-stack web application that allows users to convert long URLs into short, shareable links. Built with React and styled using Tailwind CSS, the frontend offers a sleek, responsive user interface. The backend is powered by Spring Boot, with Spring Security handling authentication and authorization to protect user data and manage access control. Data is stored in a MySQL database, ensuring reliable persistence of URLs and user information. The entire application is containerized using Docker for easy deployment and scalability across environments.",
-    technologies: ["HTML", "CSS", "React", "Springboot", "MySQL", "Tailwind CSS", "Docker"],
-    github_link: 'https://github.com/wchandler2020/springboot-react-urlShortner',
-    demo_link: 'https://deft-cendol-d9ecab.netlify.app/',
+    "FinanceFlow is an AI-driven personal finance platform designed to automate wealth management and transaction tracking. It features an integrated GPT-4 AI Advisor for personalized spending insights and an OpenAI Vision-powered Receipt Scanner that automates data entry with 85% accuracy.",
+    technologies: ["Springboot", "Postgres", "Docker", "OpenAI", "AWS S3", "React JS", "TailwindCSS", "React Query", "Framer Motion"],
+    github_link: 'https://github.com/wchandler2020/financeflow_api',
+    demo_link: 'https://wchandler2020.github.io/financeflow_frontend/'
   },
   {
     id: 2,
-    title: "BG_REMOVE",
-    image: project_2_01,
-    image_1: project_2_01,
-    image_2: default_image,
-    image_3: default_image,
-    image_4: default_image,
-    description:
-      "This is a web-based Image Background Removal Tool that enables users to upload images and automatically remove their backgrounds. The frontend is built with React.js and styled using Tailwind CSS for a clean and responsive UI. The backend is powered by Spring Boot, with Spring Security handling request protection and role-based access.Clerk is integrated for user authentication and management, providing secure and seamless sign-in/sign-up flows. A MySQL database is used to persist user data, including tracking the number of credits each user has remaining for background removal operations. This allows the application to enforce usage limits and personalize the experience for each user.",
-    technologies: ["React", "Tailwind", "Clerk", "Springboot", "MySQL", "Spring Security"],
-    github_link: 'https://github.com/wchandler2020/bg-remove-app',
-    demo_link: ''
-  },
-  {
-    id: 3,
     title: "Promed Health Plus",
     image: projecct_3_home,
     image_1: projecct_3_tour,
@@ -117,19 +108,21 @@ export const PROJECTS = [
     demo_link: 'https://promedhealthplus.com/'
   },
   {
-    id: 4,
-    title: "App Three Coming Soon",
-    image: default_image,
-    image_1: default_image,
+    id: 3,
+    title: "BG_REMOVE",
+    image: project_2_01,
+    image_1: project_2_01,
     image_2: default_image,
     image_3: default_image,
     image_4: default_image,
     description:
-    "My projects are currently being deployed and will be available here shortly. Stay tuned—exciting work is on the way!",
-    technologies: ["HTML", "CSS", "JS", "Django Rest Framework", "React JS", "AWS EC3"],
-    github_link: '',
+      "This is a web-based Image Background Removal Tool that enables users to upload images and automatically remove their backgrounds. The frontend is built with React.js and styled using Tailwind CSS for a clean and responsive UI. The backend is powered by Spring Boot, with Spring Security handling request protection and role-based access.Clerk is integrated for user authentication and management, providing secure and seamless sign-in/sign-up flows. A MySQL database is used to persist user data, including tracking the number of credits each user has remaining for background removal operations. This allows the application to enforce usage limits and personalize the experience for each user.",
+    technologies: ["React", "Tailwind", "Clerk", "Springboot", "MySQL", "Spring Security"],
+    github_link: 'https://github.com/wchandler2020/bg-remove-app',
     demo_link: ''
   },
+  
+  
 ];
 
 export const CONTACT = {
