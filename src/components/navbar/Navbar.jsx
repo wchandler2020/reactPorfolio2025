@@ -76,20 +76,26 @@ const Navbar = () => {
           {/* Nav links (desktop) */}
           <div style={{ display: "flex", gap: 28, alignItems: "center" }}>
             {["About", "Experience", "Projects", "Contact"].map((item) => (
-              <a
+              <button
                 key={item}
-                href={`#${item.toLowerCase()}`}
                 className="link-underline"
+                onClick={() =>
+                  document.getElementById(item.toLowerCase())?.scrollIntoView({ behavior: "smooth" })
+                }
                 style={{
                   fontSize: 13,
                   fontWeight: 500,
                   letterSpacing: "0.05em",
                   textTransform: "uppercase",
-                  textDecoration: "none",
+                  background: "none",
+                  border: "none",
+                  cursor: "pointer",
+                  padding: 0,
+                  fontFamily: "inherit",
                 }}
               >
                 {item}
-              </a>
+              </button>
             ))}
           </div>
 
