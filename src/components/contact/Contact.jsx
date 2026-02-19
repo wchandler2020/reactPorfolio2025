@@ -82,6 +82,7 @@ const ContactItem = ({ icon, label, value, href }) => {
 };
 
 const Contact = () => {
+  const year = new Date().getFullYear()
   return (
     <section
       id="contact"
@@ -276,7 +277,7 @@ const Contact = () => {
           }}
         >
           <span className="mono" style={{ fontSize: 11, color: "var(--muted)", letterSpacing: "0.1em" }}>
-            © 2025 William Chandler
+            © {year} William Chandler
           </span>
           <span className="mono" style={{ fontSize: 11, color: "var(--muted)", letterSpacing: "0.1em" }}>
             Full Stack Developer · Chicago, IL
