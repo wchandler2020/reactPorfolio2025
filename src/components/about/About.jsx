@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg4 from "../../assets/about/about_img_4.jpg";
+import aboutImg4 from "../../assets/about/about_img_4.png";
 import { ABOUT_TEXT } from "../../constants/index";
 
 const About = () => {
@@ -153,7 +153,7 @@ const About = () => {
             </div>
 
             {/* Info card — desktop only */}
-            <div
+            {/* <div
               id="about-info-card"
               style={{
                 position: "absolute",
@@ -173,7 +173,7 @@ const About = () => {
               >
                 Commendations
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

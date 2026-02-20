@@ -7,7 +7,7 @@ import { FiArrowDownRight } from "react-icons/fi";
 
 const STATS = [
   { value: "6+", label: "Years in Tech" },
-  { value: "4", label: "Projects Shipped" },
+  { value: "12", label: "Projects Shipped" },
   { value: "3+", label: "Languages Mastered" },
 ];
 
@@ -244,7 +244,7 @@ const Hero = () => {
             >
               <div style={{ width: 8, height: 8, background: "var(--amber)", borderRadius: "50%" }} />
               <span className="mono" style={{ fontSize: 10, color: "var(--muted-2)", letterSpacing: "0.12em" }}>
-                U.S. ARMY VETERAN
+                FULL STACK DEVELOPER
               </span>
             </div>
           </div>
