@@ -6,8 +6,7 @@ import { IoMdDownload } from "react-icons/io";
 import { FiArrowDownRight } from "react-icons/fi";
 
 const STATS = [
-  { value: "23", label: "Years Military" },
-  { value: "5+", label: "Years in Tech" },
+  { value: "6+", label: "Years in Tech" },
   { value: "4", label: "Projects Shipped" },
   { value: "3+", label: "Languages Mastered" },
 ];
