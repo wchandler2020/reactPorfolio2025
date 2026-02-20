@@ -6,9 +6,9 @@ import { IoMdDownload } from "react-icons/io";
 import { FiArrowDownRight } from "react-icons/fi";
 
 const STATS = [
-  // { value: "23", label: "Years Military" },
-  { value: "6+", label: "Years in Tech" },
-  { value: "12", label: "Projects Shipped" },
+  { value: "23", label: "Years Military" },
+  { value: "5+", label: "Years in Tech" },
+  { value: "4", label: "Projects Shipped" },
   { value: "3+", label: "Languages Mastered" },
 ];
 
@@ -60,6 +60,7 @@ const Hero = () => {
 
         {/* Main layout */}
         <div
+          id="hero-grid"
           style={{
             display: "grid",
             gridTemplateColumns: "1fr auto",
@@ -67,6 +68,14 @@ const Hero = () => {
             alignItems: "center",
           }}
         >
+          <style>{`
+            @media (max-width: 768px) {
+              #hero-grid { grid-template-columns: 1fr !important; }
+              #hero-photo { display: none !important; }
+              #hero-stats { flex-wrap: wrap !important; gap: 20px !important; }
+              #hero-stats > div { border-right: none !important; margin-right: 0 !important; flex: 0 0 calc(50% - 10px) !important; }
+            }
+          `}</style>
           {/* Left: Text */}
           <div>
             {/* Name */}
@@ -132,9 +141,13 @@ const Hero = () => {
               className="animate-fade-up-d4"
               style={{ display: "flex", gap: 12, flexWrap: "wrap", marginBottom: 56 }}
             >
-              <a href="#projects" className="btn-amber" style={{ textDecoration: "none" }}>
+              <button
+                className="btn-amber"
+                onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
+                style={{ border: "none", cursor: "pointer" }}
+              >
                 View My Work <FiArrowDownRight size={16} />
-              </a>
+              </button>
               <a href={resume} download="WilliamChandlerChiResume2025.docx" className="btn-ghost" style={{ textDecoration: "none" }}>
                 <IoMdDownload size={16} /> Download Resume
               </a>
@@ -142,6 +155,7 @@ const Hero = () => {
 
             {/* Stats row */}
             <div
+              id="hero-stats"
               className="animate-fade-up-d5"
               style={{
                 display: "flex",
@@ -179,6 +193,7 @@ const Hero = () => {
 
           {/* Right: Photo */}
           <div
+            id="hero-photo"
             className="animate-fade-in"
             style={{
               position: "relative",
@@ -230,7 +245,7 @@ const Hero = () => {
             >
               <div style={{ width: 8, height: 8, background: "var(--amber)", borderRadius: "50%" }} />
               <span className="mono" style={{ fontSize: 10, color: "var(--muted-2)", letterSpacing: "0.12em" }}>
-                FULLSTACK DEVELOPER
+                U.S. ARMY VETERAN
               </span>
             </div>
           </div>
