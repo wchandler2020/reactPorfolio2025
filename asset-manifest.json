@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/reactPorfolio2025/static/css/main.1a55abc1.css",
-    "main.js": "/reactPorfolio2025/static/js/main.3f006e36.js",
+    "main.js": "/reactPorfolio2025/static/js/main.3ab5438c.js",
+    "static/media/about_img_4.png": "/reactPorfolio2025/static/media/about_img_4.89a8decfebd8fc66b06e.png",
     "static/media/welcome.png": "/reactPorfolio2025/static/media/welcome.bf8b25b3e4e1adf4b803.png",
     "static/media/MFA.png": "/reactPorfolio2025/static/media/MFA.d7897af66eb7d03b09db.png",
     "static/media/register.png": "/reactPorfolio2025/static/media/register.b3c6e196492ab9aeaabf.png",
     "static/media/bg_remove_1.png": "/reactPorfolio2025/static/media/bg_remove_1.4121c9efc9ee74e2c645.png",
     "static/media/home_screen.png": "/reactPorfolio2025/static/media/home_screen.931446a55b6a7525e58b.png",
-    "static/media/about_img_4.jpg": "/reactPorfolio2025/static/media/about_img_4.f5a55ba26c7f82295f49.jpg",
     "static/media/about.png": "/reactPorfolio2025/static/media/about.033b3a808b485b60dc74.png",
     "static/media/img_1.png": "/reactPorfolio2025/static/media/img_1.dace5f62aba72d3f91ff.png",
     "static/media/ai_assistant.png": "/reactPorfolio2025/static/media/ai_assistant.1e1e945edfb3d55bdf65.png",
@@ -23,10 +23,10 @@
     "static/media/default_img.jpg": "/reactPorfolio2025/static/media/default_img.85d8d1eda7f078792068.jpg",
     "index.html": "/reactPorfolio2025/index.html",
     "main.1a55abc1.css.map": "/reactPorfolio2025/static/css/main.1a55abc1.css.map",
-    "main.3f006e36.js.map": "/reactPorfolio2025/static/js/main.3f006e36.js.map"
+    "main.3ab5438c.js.map": "/reactPorfolio2025/static/js/main.3ab5438c.js.map"
   },
   "entrypoints": [
     "static/css/main.1a55abc1.css",
-    "static/js/main.3f006e36.js"
+    "static/js/main.3ab5438c.js"
   ]
 }
