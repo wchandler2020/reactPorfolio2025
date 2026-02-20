@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg4 from "../assets/about/about_img_4.jpg";
+import aboutImg4 from "../../assets/about/about_img_4.jpg";
 import { ABOUT_TEXT } from "../../constants/index";
 
 const About = () => {
